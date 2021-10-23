@@ -74,9 +74,9 @@ https://www.youtube.com/watch?v=k2RkIn_Q67Q&ab_channel=%D7%90%D7%95%D7%A4%D7%99%
 Then I decided to build a charger for my 42V lithium battery(cause after exploring about that I saw it could be much more chipper and also I like to learn).
 For this, I asked my neighbor for help(cause he understand more than me about electricity), at the beginning, we understand the structure of my battery and how she wired it. Then I understood according to forums that the charger needs to stabilize each cell simultaneity while charging so I needed to adapt for that the right BMS. After a lot of understanding and right soldering each wire we also seceded to build it properly.
 
-<img align="center" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg">
-<img align="right" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551687-01de3417-f2bc-4115-b370-9cfafa85cccd.jpg">
-<img align="left" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551692-3a2a04b5-117c-4f49-a526-831ca8eb4f8c.jpg">
+<img align="center" width="180" height="300" src="https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg">
+<img align="right" width="180" height="300" src="https://user-images.githubusercontent.com/92687493/138551687-01de3417-f2bc-4115-b370-9cfafa85cccd.jpg">
+<img align="left" width="180" height="300" src="https://user-images.githubusercontent.com/92687493/138551692-3a2a04b5-117c-4f49-a526-831ca8eb4f8c.jpg">
 
  
 ![מטען סקייטבורד-1](https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg)
