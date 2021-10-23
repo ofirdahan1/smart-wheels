@@ -37,6 +37,7 @@ The board was needed to be with a foot holder(like a snowboard) case after I cal
 Castle: Phonix 160 edge HV 
 
 Motor: AXI gold line( I made adjustments there for my tools with a friend that have a CNC machine)
+![](https://user-images.githubusercontent.com/92687493/138551598-e56c6a7c-97ca-4b4a-9046-851a957e1efd.jpg)|![](https://user-images.githubusercontent.com/92687493/138551607-b6f87611-20d1-48b7-8ff3-22fa7aaafb69.jpg)
 
 ![IMG_20191024_123651](https://user-images.githubusercontent.com/92687493/138551598-e56c6a7c-97ca-4b4a-9046-851a957e1efd.jpg)|
 
