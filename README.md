@@ -22,7 +22,7 @@ Next goals:
 
 After a long time that I have been working as a technician of UAVs I discided to see if I can get into the world of robotics by myself and build a robot .so I decided to start with trying to build an electrical skateboard. At first, I was sketching and deciding what I need to buy for this project. So I started with the purpose of what is needed to do, I wanted that he will be able to skate fast on multiple kinds of field conditions and not only solid roads (like grass, soft sands, little rocks, low stairs…). So for that, I have wanted a big board with a strong shield and axis and shock absorber. At that point in life, I didn’t have too much money to spend so I've been efficient as much as I could with the spending. The best place to buy all of this material was Aliexpress, there I compere etch part of the board by measurements details by the description of the sales and eventually after a long time most of the part came.
 
-  <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg">
+  <img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg">
  
  <img src="https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg"  width="300" height="300" />
 
@@ -32,12 +32,12 @@ Castle: Phonix 160 edge HV
 
 Motor: AXI gold line( I made adjustments there for my tools with a friend that have a CNC machine)
 
-  <img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551598-e56c6a7c-97ca-4b4a-9046-851a957e1efd.jpg">
+  <img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551598-e56c6a7c-97ca-4b4a-9046-851a957e1efd.jpg">
  <img src="https://user-images.githubusercontent.com/92687493/138551607-b6f87611-20d1-48b7-8ff3-22fa7aaafb69.jpg"  width="300" height="300" />
 
 For the communication with the  castle, I order a normal RC with a receiver for electric skateboard from Aliexpress and case my castle doesn’t know to change the  direction of the current (usually castle for electric skateboard knows) so I did some adjustments with the remote controller
 
-<img align="center" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551632-498b3626-b7f1-483a-a8c5-372f773b35e2.jpg">
+<img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551632-498b3626-b7f1-483a-a8c5-372f773b35e2.jpg">
  <img src="https://user-images.githubusercontent.com/92687493/138551640-780d0bb8-6a13-44e4-9c74-b126f5b48305.jpg"  width="300" height="300" />
 
 Then I needed to plan how the circuit is gonna because I had one battery(42V) and two castles and motors so from understanding how the current need to flow I soldered the wires in a parallel circuit structure.
