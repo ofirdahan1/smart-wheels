@@ -81,9 +81,9 @@ For this, I asked my neighbor for help(cause he understand more than me about el
 </p>
 
 
-<img align="left" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551699-1565a9a3-e272-4768-a0a7-108d2ff47fa4.jpg">
+<img align="left" width="250" height="300" src="https://user-images.githubusercontent.com/92687493/138551699-1565a9a3-e272-4768-a0a7-108d2ff47fa4.jpg">
 <p align="center">
-  <img width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551695-82da27d3-fdc2-4446-992d-e617800c037c.jpg">
+  <img width="250" height="300" src="https://user-images.githubusercontent.com/92687493/138551695-82da27d3-fdc2-4446-992d-e617800c037c.jpg">
 </p>
  
 In the year 2021, I learned at the university programing in python and Matlab so I wanted to use this knowledge and make this skateboard into a smart robot that can detect obstacles and operate as well for safety. For that, I understand the best way is to program it with Arduino and sensors.
