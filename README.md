@@ -26,10 +26,6 @@ After a long time that I have been working as a technician of UAVs I discided to
  
  <img src="https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg"  width="300" height="300" />
 
-
-
-
-
 The board was needed to be with a foot holder(like a snowboard) case after I calculate the max speed(approx.) with a site that you put details of the engine & battery and spin ratio I saw that it could get to 55 km/h and its very fast for skating. From knowing that I would work with a current of up to 90 amp I needed a good castle(from the period of the technician). 
 
 Castle: Phonix 160 edge HV 
@@ -37,14 +33,13 @@ Castle: Phonix 160 edge HV
 Motor: AXI gold line( I made adjustments there for my tools with a friend that have a CNC machine)
 
   <img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551598-e56c6a7c-97ca-4b4a-9046-851a957e1efd.jpg">
- 
  <img src="https://user-images.githubusercontent.com/92687493/138551607-b6f87611-20d1-48b7-8ff3-22fa7aaafb69.jpg"  width="300" height="300" />
 
-
-
-![Screenshot_20190922_174002_com android chrome](https://user-images.githubusercontent.com/92687493/138551607-b6f87611-20d1-48b7-8ff3-22fa7aaafb69.jpg)
-
 For the communication with the  castle, I order a normal RC with a receiver for electric skateboard from Aliexpress and case my castle doesn’t know to change the  direction of the current (usually castle for electric skateboard knows) so I did some adjustments with the remote controller
+
+<img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551632-498b3626-b7f1-483a-a8c5-372f773b35e2.jpg">
+ <img src="https://user-images.githubusercontent.com/92687493/138551640-780d0bb8-6a13-44e4-9c74-b126f5b48305.jpg"  width="300" height="300" />
+
 
 ![IMG_20190917_112528](https://user-images.githubusercontent.com/92687493/138551632-498b3626-b7f1-483a-a8c5-372f773b35e2.jpg)
 
