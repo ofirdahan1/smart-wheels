@@ -40,14 +40,10 @@ For the communication with the  castle, I order a normal RC with a receiver for 
 <img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551632-498b3626-b7f1-483a-a8c5-372f773b35e2.jpg">
  <img src="https://user-images.githubusercontent.com/92687493/138551640-780d0bb8-6a13-44e4-9c74-b126f5b48305.jpg"  width="300" height="300" />
 
-
-![IMG_20190917_112528](https://user-images.githubusercontent.com/92687493/138551632-498b3626-b7f1-483a-a8c5-372f773b35e2.jpg)
-
-![IMG_20211003_114328](https://user-images.githubusercontent.com/92687493/138551640-780d0bb8-6a13-44e4-9c74-b126f5b48305.jpg)
-
 Then I needed to plan how the circuit is gonna because I had one battery(42V) and two castles and motors so from understanding how the current need to flow I soldered the wires in a parallel circuit structure.
 
-![IMG_20191025_102850](https://user-images.githubusercontent.com/92687493/138551658-6588201f-2bfd-4336-995d-622286e7639b.jpg)
+ <img src="https://user-images.githubusercontent.com/92687493/138551658-6588201f-2bfd-4336-995d-622286e7639b.jpg"  width="300" height="300" />
+
 
 So I connect all the "parts" that I had and make(there were a lot of adjustments and creativity)  and after a couple of fails, it finely worked.
 
@@ -69,7 +65,7 @@ https://www.youtube.com/watch?v=WvDeFf17qHQ&ab_channel=%D7%90%D7%95%D7%A4%D7%99%
 
 Here I noted that it could be very vast so I decided to change the ratio of the teeth between the engine and wheels to get more movement and less speed (by decreasing the number of teeth on the engine tooth wheel adaptor.) 
 
-![IMG-20191120-WA0002](https://user-images.githubusercontent.com/92687493/138551671-cd14ec32-f719-47bc-b4cc-da37d43ce402.jpg)
+ <img src="https://user-images.githubusercontent.com/92687493/138551671-cd14ec32-f719-47bc-b4cc-da37d43ce402.jpg"  width="300" height="300" />
 
 Then I took it for a 4 km ride around my house and it worked perfectly.
 
@@ -78,6 +74,10 @@ https://www.youtube.com/watch?v=k2RkIn_Q67Q&ab_channel=%D7%90%D7%95%D7%A4%D7%99%
 Then I decided to build a charger for my 42V lithium battery(cause after exploring about that I saw it could be much more chipper and also I like to learn).
 For this, I asked my neighbor for help(cause he understand more than me about electricity), at the beginning, we understand the structure of my battery and how she wired it. Then I understood according to forums that the charger needs to stabilize each cell simultaneity while charging so I needed to adapt for that the right BMS. After a lot of understanding and right soldering each wire we also seceded to build it properly.
 
+<img align="center" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg">
+<img align="right" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551687-01de3417-f2bc-4115-b370-9cfafa85cccd.jpg">
+<img src="https://user-images.githubusercontent.com/92687493/138551692-3a2a04b5-117c-4f49-a526-831ca8eb4f8c.jpg"  width="200" height="300" />
+ 
 ![מטען סקייטבורד-1](https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg)
 ![מטען סקייטבורד-2](https://user-images.githubusercontent.com/92687493/138551687-01de3417-f2bc-4115-b370-9cfafa85cccd.jpg)
 ![מטען סקייטבורד-3](https://user-images.githubusercontent.com/92687493/138551692-3a2a04b5-117c-4f49-a526-831ca8eb4f8c.jpg)
