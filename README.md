@@ -25,8 +25,9 @@ After a long time that I have been working as a technician of UAVs I discided to
 
 <img src="https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg"  width="250" height="250" />
 <img src="https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg"  width="250" height="250" />
-![IMG_20190911_112852](https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg)
-![IMG_20190911_123431](https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg)
+<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg">
+<img align="right" width="100" height="100" src="https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg">
+
 
 The board was needed to be with a foot holder(like a snowboard) case after I calculate the max speed(approx.) with a site that you put details of the engine & battery and spin ratio I saw that it could get to 55 km/h and its very fast for skating. From knowing that I would work with a current of up to 90 amp I needed a good castle(from the period of the technician). 
 
