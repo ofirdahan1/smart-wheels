@@ -96,11 +96,10 @@ To understand more I combined two sensors: distance& LCD
 https://www.youtube.com/watch?v=qHsClQXByfI&ab_channel=%D7%90%D7%95%D7%A4%D7%99%D7%A8%D7%93%D7%94%D7%9F
 
 After some testing my old receiver tried to make problems and stop to work so then I needed to change all the RC chips to Arduino chips and get the right data for the project by wifi.
-<img align="right" width="300" height="300" src="https://user-images.githubusercontent.com/92687493/138551734-270ba945-9af1-43d6-8594-c3f29fa4d586.jpg">
+<img align="right" width="500" height="300" src="https://user-images.githubusercontent.com/92687493/138551734-270ba945-9af1-43d6-8594-c3f29fa4d586.jpg">
  <img src="https://user-images.githubusercontent.com/92687493/138551744-1c3f47dc-3ed4-4b4c-b868-bd4b900e845f.jpg"  width="300" height="300" />
 
-![IMG-20211004-WA0005](https://user-images.githubusercontent.com/92687493/138551734-270ba945-9af1-43d6-8594-c3f29fa4d586.jpg)
-![IMG_20211010_184652](https://user-images.githubusercontent.com/92687493/138551744-1c3f47dc-3ed4-4b4c-b868-bd4b900e845f.jpg)
+
 
 For the first time after different algorithms in the Arduino which include:
 
