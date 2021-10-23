@@ -24,7 +24,7 @@ After a long time that I have been working as a technician of UAVs I discided to
 
 
 <img src="https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg"  width="250" height="250" />
-
+<img src="https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg"  width="250" height="250" />
 ![IMG_20190911_112852](https://user-images.githubusercontent.com/92687493/138551563-073b41c3-3ce6-48ae-9800-12b308d40024.jpg)
 ![IMG_20190911_123431](https://user-images.githubusercontent.com/92687493/138551576-cb38a095-64db-49fc-9dc6-0be1b4fc92c4.jpg)
 
