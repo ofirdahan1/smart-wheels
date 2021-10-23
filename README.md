@@ -76,7 +76,8 @@ For this, I asked my neighbor for help(cause he understand more than me about el
 
 <img align="center" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg">
 <img align="right" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551687-01de3417-f2bc-4115-b370-9cfafa85cccd.jpg">
-<img src="https://user-images.githubusercontent.com/92687493/138551692-3a2a04b5-117c-4f49-a526-831ca8eb4f8c.jpg"  width="200" height="300" />
+<img align="left" width="200" height="300" src="https://user-images.githubusercontent.com/92687493/138551692-3a2a04b5-117c-4f49-a526-831ca8eb4f8c.jpg">
+
  
 ![מטען סקייטבורד-1](https://user-images.githubusercontent.com/92687493/138551682-dcffc2de-0aaa-4939-b68d-e6aaa579621f.jpg)
 ![מטען סקייטבורד-2](https://user-images.githubusercontent.com/92687493/138551687-01de3417-f2bc-4115-b370-9cfafa85cccd.jpg)
