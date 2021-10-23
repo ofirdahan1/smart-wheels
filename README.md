@@ -1,6 +1,5 @@
 # smart-wheels
-electric skateboard with sensors
-The project that improving over time:
+Electric skateboard with sensors The project that improving over time:
 Achievements:
 •	Building skateboard
 •	Make it electricity sate board
