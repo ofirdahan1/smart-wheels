@@ -1,0 +1,40 @@
+#ifndef D_GOLOBAL_H
+#define D_GOLOBAL_H
+
+/////////////////////////sensors varable///////////////////////////////
+//lidar//
+TFMini tfmini; 
+SoftwareSerial SerialTFMini(2,3); 
+int distance=0,strength=0;
+
+//wifi//
+RF24 radio(9,10);                           // NRF24L01 SPI pins. Pin 9 and 10 on the Nano
+const uint64_t pipe = 0xE6E6E6E6E6E6;       // Needs to be the same for communicating between 2 NRF24L01 
+int ReceivedMessage[1] = {000};             // Used to store value received by the NRF24L01
+int pwm;
+
+//gyro//
+
+
+
+//////////////////////////algorithms variable//////////////////////////
+
+int sens_dist_beg=150,distanc_limit=50;
+
+int time_delay=80;                           //the pace change of the velocity
+int rate=1;                                  //varible for change the dec/inc of the velocity
+
+
+///////////////////////////local varable///////////////////////////////
+
+Servo throttleRIGHT;
+Servo throttleLEFT;
+
+
+int pwmL,pwmR;
+int rc_elevator_pulsewidth_max_out = 2000; //speed limet max
+int rc_elevator_pulsewidth_min_out = 1000; //speed limet no power
+int pwmT= rc_elevator_pulsewidth_min_out;
+int distance1;
+int flag=0;
+#endif
