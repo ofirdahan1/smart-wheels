@@ -1,0 +1,45 @@
+#ifndef B_ALGORITHMS_FUN_H
+#define B_ALGORITHMS_FUN_H
+
+void red_raise(int start1,int end1)//increse/decres the speed at good pace
+{if (start1>end1+5){
+  pwmT = start1-rate;
+  rate=rate+1;
+  delay(time_delay);
+  if (start1-end1<=rate){
+    rate=int (rate/2);
+      }
+    }
+ else if (start1<end1-5){
+  pwmT = start1+rate;
+  rate=rate+1;
+  delay(time_delay);
+   if (end1-start1<=rate){
+    rate=int (rate/2);
+      }
+     }
+ else{
+  pwmT = end1;
+  rate=1;
+ }
+  
+}
+
+void wheel_power()
+{ 
+    pwmL=constrain(pwmT,rc_elevator_pulsewidth_min_out-(50+distanc_limit),rc_elevator_pulsewidth_max_out);
+    pwmR=constrain(pwmT,rc_elevator_pulsewidth_min_out-(50+distanc_limit),rc_elevator_pulsewidth_max_out);
+    throttleLEFT.writeMicroseconds(pwmL);
+    throttleRIGHT.writeMicroseconds(pwmR);
+          Serial.print(pwmL);
+          Serial.print("/");
+          Serial.print(pwmR);
+          Serial.print("/");
+          Serial.print(distance1);
+          Serial.print("/");
+          Serial.print(pwm);
+          Serial.println("/");
+  }
+  
+ 
+#endif
