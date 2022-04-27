@@ -20,7 +20,6 @@ void setup(void)
   radio.startListening();                      // Listen to see if information received
   throttleRIGHT.attach(7);                     // define the outpot pin for the right engine
   throttleLEFT.attach(5);                      // define the outpot pin for the left engine
-  //Serial.begin (9600);
   Serial.begin(115200);                        //Initialize hardware serial port (serial debug port)
   while (!Serial);                             // wait for serial port to connect. Needed for native USB port only
   Serial.println ("Initializing...");
@@ -31,20 +30,7 @@ void setup(void)
 void loop(void)
 
 {  distance_fun();
-//  int distance = 0;
-//  int strength = 0; 
-//  getTFminiData(&distance, &strength);
-//  while (!distance)
-//  {getTFminiData(&distance, &strength);
-//    if (distance>0)
-//     {       distance1=distance;
-//             Serial.print(distance1);
-//             Serial.print("cm\t");
-//             Serial.print("strength: ");
-//             Serial.println(strength);
-                   
-         
-      
+                 
     if(distance1>sens_dist_beg){
       radio_fun();
       red_raise(pwmT,pwm);
@@ -73,8 +59,7 @@ void loop(void)
        //throttle.writeMicroseconds(pwm);
       }
    }
- 
-
- 
-
-
+   
+   
+   
+   
