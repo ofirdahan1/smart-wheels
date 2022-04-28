@@ -114,5 +114,9 @@ Here we can see it working real(not yet on the road) I'm using the RC that I bui
 
 https://www.youtube.com/watch?v=cZuwJM2zBeA&t=1s&ab_channel=%D7%90%D7%95%D7%A4%D7%99%D7%A8%D7%93%D7%94%D7%9F
 
+After a long time that I didn’t touch the project, I changed the distance sensor to lidar cause it is accurate and long-range. Then I organized my code from the beginning cause it started to get messy. so I divided my code into different layers like in operation systems and now it is more organized
+
+The next step is to add a gyro sensor to the systems for improving performance.
+
 To bee continued…..
 
