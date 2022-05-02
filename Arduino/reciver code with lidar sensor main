@@ -4,6 +4,10 @@
 #include <Servo.h>
 #include <SoftwareSerial.h>
 #include "TFMini.h"
+#include <Wire.h>
+#include <MPU6050.h>
+
+
 
 #include "D_global.h"
 #include "B_algorithms_fun.h"
@@ -13,16 +17,22 @@
 
 
 void setup(void)
-{ 
-  
+{ Serial.begin(115200);                        //Initialize hardware serial port (serial debug port)
+  while (!Serial);                             // wait for serial port to connect. Needed for native USB port only
+  Serial.println ("Initializing...");
+  ////radio set up///
   radio.begin();                               // Start the NRF24L01
   radio.openReadingPipe(1,pipe);               // Get NRF24L01 ready to receive
   radio.startListening();                      // Listen to see if information received
+  ///engine setup///
   throttleRIGHT.attach(7);                     // define the outpot pin for the right engine
   throttleLEFT.attach(5);                      // define the outpot pin for the left engine
-  Serial.begin(115200);                        //Initialize hardware serial port (serial debug port)
-  while (!Serial);                             // wait for serial port to connect. Needed for native USB port only
-  Serial.println ("Initializing...");
+  //gyro setup///
+  while(!mpu.begin(MPU6050_SCALE_2000DPS, MPU6050_RANGE_2G))
+  {
+    delay(500);
+  }
+  //lidar setup//
   SerialTFMini.begin(TFMINI_BAUDRATE);         //Initialize the data rate for the SoftwareSerial port
   tfmini.begin(&SerialTFMini);  
 }
@@ -59,7 +69,6 @@ void loop(void)
        //throttle.writeMicroseconds(pwm);
       }
    }
-   
-   
-   
-   
+ 
+
+ 
