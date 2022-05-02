@@ -1,74 +1,61 @@
-#include "nRF24L01.h" //LIBARY TO WIFI SENSORS
-#include "RF24.h"     
-#include "SPI.h"
-#include <Servo.h>
-#include <SoftwareSerial.h>
-#include "TFMini.h"
-#include <Wire.h>
-#include <MPU6050.h>
-
-
+#ifndef B_ALGORITHMS_FUN_H
+#define B_ALGORITHMS_FUN_H
 
 #include "D_global.h"
-#include "B_algorithms_fun.h"
 #include "C_sensors_fun.h"
 
 
-
-
-void setup(void)
-{ Serial.begin(115200);                        //Initialize hardware serial port (serial debug port)
-  while (!Serial);                             // wait for serial port to connect. Needed for native USB port only
-  Serial.println ("Initializing...");
-  ////radio set up///
-  radio.begin();                               // Start the NRF24L01
-  radio.openReadingPipe(1,pipe);               // Get NRF24L01 ready to receive
-  radio.startListening();                      // Listen to see if information received
-  ///engine setup///
-  throttleRIGHT.attach(7);                     // define the outpot pin for the right engine
-  throttleLEFT.attach(5);                      // define the outpot pin for the left engine
-  //gyro setup///
-  while(!mpu.begin(MPU6050_SCALE_2000DPS, MPU6050_RANGE_2G))
-  {
-    delay(500);
-  }
-  //lidar setup//
-  SerialTFMini.begin(TFMINI_BAUDRATE);         //Initialize the data rate for the SoftwareSerial port
-  tfmini.begin(&SerialTFMini);  
+void red_raise(int start1,int end1)//increse/decres the speed at good pace
+{if (start1>end1+5){
+  pwmT = start1-rate;
+  rate=rate+1;
+  delay(time_delay);
+  if (start1-end1<=rate){
+    rate=int (rate/2);
+      }
+    }
+ else if (start1<end1-5){
+  pwmT = start1+rate;
+  rate=rate+1;
+  delay(time_delay);
+   if (end1-start1<=rate){
+    rate=int (rate/2);
+      }
+     }
+ else{
+  pwmT = end1;
+  rate=1;
+ }
+  
 }
 
-void loop(void)
-
-{  distance_fun();
-                 
-    if(distance1>sens_dist_beg){
-      radio_fun();
-      red_raise(pwmT,pwm);
-      wheel_power();
-         
-     }
-       
-    else{
-       while(distance1<sens_dist_beg){
-         
-         float max_speed= 5*distance1+rc_elevator_pulsewidth_min_out-distanc_limit;
-         radio_fun();
-         if (pwm> max_speed & pwmT>max_speed){
-             red_raise(pwmT,max_speed);
-             wheel_power();   
-             }
-         
-         else{
-            red_raise(pwmT,pwm);
-            wheel_power();
-            }
-         distance_fun();
-        
-            
-       } 
-       //throttle.writeMicroseconds(pwm);
+void wheel_power()
+{   
+    turn();
+     
+  
+    if(abs(roll)>10)
+      {roll1=int(roll*2);
+       pwmL=constrain(pwmT+roll1,rc_elevator_pulsewidth_min_out,rc_elevator_pulsewidth_max_out);
+       pwmR=constrain(pwmT-roll1,rc_elevator_pulsewidth_min_out,rc_elevator_pulsewidth_max_out);
       }
-   }
+    else{pwmL=pwmT;
+         pwmR=pwmT;
+        }
+    
+    throttleLEFT.writeMicroseconds(pwmL);
+    throttleRIGHT.writeMicroseconds(pwmR);
+          Serial.print(pwmL);
+          Serial.print("/");
+          Serial.print(pwmR);
+          Serial.print("/");
+          Serial.print(distance1);
+          Serial.print("/");
+          Serial.print(pwm);
+          Serial.print("/");
+          Serial.print(roll);
+          Serial.println("/");
+  }
+  
  
-
- 
+#endif
