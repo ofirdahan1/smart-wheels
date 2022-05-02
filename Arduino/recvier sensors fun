@@ -1,12 +1,24 @@
 #ifndef C_SENSORS_FUN_H
 #define C_SENSORS_FUN_H
 
+#include "D_global.h"
+#include "B_algorithms_fun.h"
+
+
+
 void radio_fun()//data from transmitter
 { 
   radio.read(ReceivedMessage, sizeof(ReceivedMessage)); // Read information from the NRF24L01
   pwm = map(ReceivedMessage[0],0,179,rc_elevator_pulsewidth_min_out,rc_elevator_pulsewidth_max_out);
  
 }
+
+void turn()
+{  
+  Vector normAccel = mpu.readNormalizeAccel();
+  roll = (atan2(normAccel.YAxis, normAccel.ZAxis)*180.0)/M_PI;
+}
+
 
 void getTFminiData( int* distance, int* strength)
 { 
