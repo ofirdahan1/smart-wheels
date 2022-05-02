@@ -14,7 +14,8 @@ int ReceivedMessage[1] = {000};             // Used to store value received by t
 int pwm;
 
 //gyro//
-
+MPU6050 mpu;
+int roll,roll1;
 
 
 //////////////////////////algorithms variable//////////////////////////
