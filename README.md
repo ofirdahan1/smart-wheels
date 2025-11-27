@@ -1,3 +1,7 @@
+## Overview
+
+During my summer breaks in university, I wanted to apply my academic knowledge and build something challenging. I developed a smart electric skateboard.
+
 # smart-wheels
 Electric skateboard with sensors The project that improving over time.
 
